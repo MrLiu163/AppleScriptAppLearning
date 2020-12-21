@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4713683F2590ED770025E7DE /* MSHMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4713683E2590ED770025E7DE /* MSHMonitor.m */; };
 		47D842F8257D2BE5000618C8 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D842F7257D2BE5000618C8 /* AppleScriptObjC.framework */; };
 		47D842FB257D2BE5000618C8 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 47D842FA257D2BE5000618C8 /* AppDelegate.applescript */; };
 		47D842FD257D2BE6000618C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D842FC257D2BE6000618C8 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4713683D2590ED770025E7DE /* MSHMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSHMonitor.h; sourceTree = "<group>"; };
+		4713683E2590ED770025E7DE /* MSHMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSHMonitor.m; sourceTree = "<group>"; };
 		47D842F4257D2BE5000618C8 /* AppleScriptAppLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleScriptAppLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D842F7257D2BE5000618C8 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		47D842FA257D2BE5000618C8 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				47D842FA257D2BE5000618C8 /* AppDelegate.applescript */,
+				4713683D2590ED770025E7DE /* MSHMonitor.h */,
+				4713683E2590ED770025E7DE /* MSHMonitor.m */,
 				47D842FC257D2BE6000618C8 /* Assets.xcassets */,
 				47D842FE257D2BE6000618C8 /* MainMenu.xib */,
 				47D84301257D2BE6000618C8 /* Info.plist */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D84303257D2BE6000618C8 /* main.m in Sources */,
+				4713683F2590ED770025E7DE /* MSHMonitor.m in Sources */,
 				47D842FB257D2BE5000618C8 /* AppDelegate.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
